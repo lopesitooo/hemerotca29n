@@ -1,0 +1,10 @@
+{
+  // Proyecto de Cloudflare que sirve hemeroteca29n.com
+  "name": "small-mud-7edc",
+  "compatibility_date": "2026-10-01",
+  "assets": { "directory": "./public" },
+  "routes": [
+    { "pattern": "hemeroteca29n.com", "custom_domain": true },
+    { "pattern": "www.hemeroteca29n.com", "custom_domain": true }
+  ]
+}

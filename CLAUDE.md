@@ -1,8 +1,8 @@
 # Cómo trabajar en esta web
 
-- La web entera es `index.html`. Se publica automáticamente en Cloudflare Pages (hemeroteca29n.com) al hacer push a `main`. No hay paso de compilación.
+- La web entera es `public/index.html`. Se publica automáticamente en el Worker de Cloudflare `small-mud-7edc` (hemeroteca29n.com) al hacer push a `main` (Workers Builds ejecuta `npx wrangler deploy` con `wrangler.jsonc`). No hay paso de compilación.
 - El dueño no programa: explicarle todo en español, sin comandos.
-- Datos dentro de `index.html`:
+- Datos dentro de `public/index.html`:
   - `S` = mapa de fuentes `clave:["Medio","url"]`.
   - `PERSONAS` = fichas `{n,r,p,e:[{v,d,x,s}]}`; `d` es la fecha `AAAA-MM` o `AAAA`; dentro de cada ficha, lo más reciente primero.
   - `FICHAS` = tarjetas de Pedro Sánchez (se ordenan solas por la fecha de `who`).
